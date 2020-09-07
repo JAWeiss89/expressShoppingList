@@ -1,0 +1,17 @@
+{
+  "name": "express-shopping-list",
+  "version": "1.0.0",
+  "description": "Practice with express middleware, routing, and testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Weiss",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}
