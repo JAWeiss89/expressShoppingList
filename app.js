@@ -8,6 +8,7 @@ app.use("/items", itemsRoutes)
 
 // If at this point, how route has beeen matched, throw 404 error.
 app.use(function (req, res, next) {
+    res.status(404).send("Page not found")
     return new ExpressError("Page Not Found. :(", 404);
 });
 
